@@ -12,9 +12,9 @@ Lokki is an Open Source Project that develops a secure location sharing service.
 
 [lokki-server](https://github.com/TheSoftwareFactory/lokki-server) -- This contains the Node.js server code as well as developer documentation and issues related to the backend.
 
-[lokki-ios](https://github.com/TheSoftwareFactory/lokki-ios) -- This contains the iOS client code as well as developer documentation and issues related to the iOS client. We probably won't be touching this much.
+[lokki-ios](https://github.com/TheSoftwareFactory/lokki-ios) -- This contains the iOS client code as well as developer documentation and issues related to the iOS client. Not maintained at the moment.
 
-[lokki-wp8](https://github.com/TheSoftwareFactory/lokki-wp8) -- This contains the Windows Phone client code as well as developer documentation and issues related to the Windows Phone client. We probably won't be touching this much.
+[lokki-wp8](https://github.com/TheSoftwareFactory/lokki-wp8) -- This contains the Windows Phone client code as well as developer documentation and issues related to the Windows Phone client. Not maintained at the moment.
 
 ## Workflow
 
