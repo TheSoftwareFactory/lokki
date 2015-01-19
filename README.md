@@ -20,6 +20,7 @@ Lokki is an Open Source Project that develops a secure location sharing service.
 
 Project roughly follows the process described in [this guide](https://guides.github.com/activities/contributing-to-open-source/), with the following additions:
 
+- Trivial things can be fixed by doing a pull request without having an related issue for them.
 - When you start working on an issue, assign yourself to it. You don't have permissions to do that, comment to the issue that you're working on it.
 - When creating a pull request, please add words "Connects to #0", replacing #0 with the relevant issue ID, to the pull request description. This [connects the pull request](https://github.com/waffleio/waffle.io/wiki/FAQs#prs-connect-keywords) to the relevant issue in our [waffle board](https://waffle.io/thesoftwarefactory/lokki).
 - After making a pull request, you might want to be proactive and try to get someone to review and possibly merge it.
