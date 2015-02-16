@@ -31,3 +31,5 @@ Project roughly follows the process described in [this guide](https://guides.git
 Join #lokki on IRCNet (for example, irc.stealth.net).
 
 [waffle.io task board](https://waffle.io/thesoftwarefactory/lokki)
+
+[![Stories in Ready](https://badge.waffle.io/thesoftwarefactory/lokki.svg?label=ready&title=Ready)](http://waffle.io/thesoftwarefactory/lokki)
