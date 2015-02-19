@@ -3,8 +3,26 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,700'>
     </head>
     <body>
-        {{ content }}
+        <div class="lokki-header">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-logo-container">
+                        <img class="logo" src="lokki.png">
+                    </div>
+                    <div class="header-text-container">
+                        <h1>Lokki</h1>
+                        <h2>Open source location sharing</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            {{ content }}
+        </div>
     </body>
 </html>

@@ -1,0 +1,39 @@
+body {
+    font-family: Roboto;
+}
+
+.lokki-header {
+    background-color: #1b75ba;
+    background: linear-gradient(to bottom, #1b75ba 0%, #17629b 100%);
+    color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.lokki-header .logo {
+    padding: 20pt 40pt 20pt 0pt;
+}
+
+.lokki-header h1 {
+    font-size: 50pt;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.lokki-header h2 {
+    font-size: 18pt;
+    margin-top: 0;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.header-row {
+    display: table;
+    table-layout: fixed;
+}
+
+.header-logo-container, .header-text-container {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
