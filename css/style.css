@@ -12,8 +12,9 @@ body {
     background-color: #1b75ba;
     background: linear-gradient(to bottom, #1b75ba 0%, #17629b 100%);
     color: white;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
+    border-bottom: 3px solid #135080;
 }
 
 .lokki-header .logo {
