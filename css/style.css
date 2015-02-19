@@ -23,7 +23,7 @@ body {
 
 .lokki-header h1 {
     font-size: 50pt;
-    font-weight: bold;
+    font-weight: 900;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
