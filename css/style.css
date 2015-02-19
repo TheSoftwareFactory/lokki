@@ -2,6 +2,12 @@ body {
     font-family: Roboto;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
 .lokki-header {
     background-color: #1b75ba;
     background: linear-gradient(to bottom, #1b75ba 0%, #17629b 100%);
