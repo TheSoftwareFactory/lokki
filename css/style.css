@@ -3,9 +3,9 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
+    .container {
+        width: 970px;
+    }
 }
 
 .lokki-header {
@@ -16,7 +16,13 @@ body {
 }
 
 .lokki-header .logo {
-    padding: 20pt 40pt 20pt 0pt;
+    padding: 20pt 20pt 0pt 20pt;
+}
+
+@media (min-width: 750px) {
+    .lokki-header .logo {
+        padding: 20pt 40pt 20pt 0pt;
+    }
 }
 
 .lokki-header h1 {
@@ -32,13 +38,15 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.header-row {
-    display: table;
-    table-layout: fixed;
-}
+@media (min-width: 750px) {
+    .header-row {
+        display: table;
+        table-layout: fixed;
+    }
 
-.header-logo-container, .header-text-container {
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
+    .header-logo-container, .header-text-container {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }
 }
