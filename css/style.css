@@ -9,9 +9,9 @@ body {
 }
 
 .lokki-header {
-    background-color: #1b75ba;
+    background-color: #2196f3;
     color: white;
-    border-bottom: 6px solid #135080;
+    border-bottom: 6px solid #1976d2;
     padding-bottom: 15px;
     margin-bottom: 5px;
 }
@@ -23,8 +23,8 @@ body {
 
 @media (min-width: 750px) {
     .lokki-header .logo {
-        padding: 20px 20px 20px 0;
-        width: auto;
+        padding: 20px 40px 20px 0;
+        width: 250px;
     }
 
     .lokki-header {
