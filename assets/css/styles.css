@@ -44,7 +44,7 @@ h6,
 header .navbar-default {
   background: none;
   border: none;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -97,7 +97,7 @@ header .navbar-default ul.navbar-nav li a:hover {
 header .navbar-default ul.navbar-nav li a:hover:after {
   background: #ffffff;
 }
-header .navbar-default ul.navbar-nav li a.getApp {
+header .navbar-default ul.navbar-nav li a.download {
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
   -ms-border-radius: 5em;
@@ -109,7 +109,7 @@ header .navbar-default ul.navbar-nav li a.getApp {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-header .navbar-default ul.navbar-nav li a.getApp:after {
+header .navbar-default ul.navbar-nav li a.download:after {
   display: none;
 }
 header .navbar-default ul.navbar-nav li a:focus {
@@ -151,7 +151,7 @@ header .navbar-default.scrolled ul.navbar-nav {
   position: absolute;
   right: 0;
   z-index: 0;
-  bottom: -70px;
+  bottom: -40px;
 }
 .section-heading {
   margin: 60px 0 80px;
@@ -402,18 +402,18 @@ section#demo iframe {
   border: none;
 }
 /* Get app Section */
-section#getApp {
+section#download {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 70px 0;
+  padding: 70px 0 40px 0;
 }
-section#getApp .platforms {
+section#download .platforms {
   margin: 5px auto 120px auto;
   text-align: center;
 }
-section#getApp .platforms .btn {
+section#download .platforms .btn {
   margin-right: 10px;
   margin-bottom: 20px;
 }
@@ -652,7 +652,7 @@ form textarea.form-control {
     padding: 10px;
     text-align: center;
   }
-  header .navbar-default ul.navbar-nav li a.getApp {
+  header .navbar-default ul.navbar-nav li a.download {
     background: none !important;
     -webkit-border-radius: 0em;
     -moz-border-radius: 0em;
@@ -764,7 +764,7 @@ header .navbar-default ul.navbar-nav li a {
   color: #ffffff;
   background: none;
 }
-header .navbar-default ul.navbar-nav li a.getApp {
+header .navbar-default ul.navbar-nav li a.download {
   color: #3c79b4;
   background: #ffffff;
   /* Old browsers */
@@ -783,7 +783,7 @@ header .navbar-default ul.navbar-nav li a.getApp {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
-header .navbar-default ul.navbar-nav li a.getApp:hover {
+header .navbar-default ul.navbar-nav li a.download:hover {
   color: #4081bf;
   background: #ffffff;
   /* Old browsers */
@@ -936,30 +936,30 @@ section#demo header h1:after {
   background: #66cdcc;
 }
 /* Get app Section */
-section#getApp {
+section#download {
   background: url("../img/freeze/bk-freeze-ga.jpg");
 }
-section#getApp header {
+section#download header {
   color: #ffffff;
 }
-section#getApp header h1:after {
+section#download header h1:after {
   background: #ffffff;
 }
-section#getApp .platforms .media {
+section#download .platforms .media {
   border: 2px solid #ffffff;
   color: #ffffff;
 }
-section#getApp .platforms .media a i {
+section#download .platforms .media a i {
   color: #ffffff;
 }
-section#getApp .platforms .media a div.media-body {
+section#download .platforms .media a div.media-body {
   color: #ffffff;
 }
-section#getApp .platforms .media:hover {
+section#download .platforms .media:hover {
   background: #ffffff;
 }
-section#getApp .platforms .media:hover a i,
-section#getApp .platforms .media:hover a div.media-body {
+section#download .platforms .media:hover a i,
+section#download .platforms .media:hover a div.media-body {
   color: #66cdcc;
 }
 /* support section */
@@ -1076,7 +1076,7 @@ form .form-control:focus {
     color: #ffffff;
     border-bottom: 1px solid #376fa4;
   }
-  header .navbar-default ul.navbar-nav li a.getApp {
+  header .navbar-default ul.navbar-nav li a.download {
     color: #ffffff;
   }
   header .navbar-default ul.navbar-nav li a:after {
@@ -1100,4 +1100,8 @@ form .form-control:focus {
 }
 .pre-loader {
   background: #336799;
+}
+
+header .navbar-brand img:hover{
+	
 }
