@@ -1,0 +1,44 @@
+
+/* Get app Section */
+section#developers {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 70px 0 40px 0;
+}
+section#developers .platforms {
+  margin: 5px auto 120px auto;
+  text-align: center;
+}
+section#developers .platforms .btn {
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+
+/* Get app Section */
+
+section#developers header {
+  color: #ffffff;
+}
+section#developers header h1:after {
+  background: #ffffff;
+}
+section#developers .platforms .media {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+section#developers .platforms .media a i {
+  color: #000;
+}
+section#developers .platforms .media a div.media-body {
+  color: #000;
+}
+section#developers .platforms .media:hover {
+  background: #000;
+}
+section#developers .platforms .media:hover a i,
+section#developers .platforms .media:hover a div.media-body {
+  color: #000;
+}
